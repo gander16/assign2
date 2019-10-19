@@ -1,5 +1,5 @@
 /**
- * Assignment #: 2
+ * Assignment #: 3
  * Name: Gabriel Anderson 
  * Student ID: 1212500313
  * Class ID: 70642
@@ -8,7 +8,7 @@
  * subtract, get total, clear total and convert total to string.
  * GitHub URL (via HTTPS): https://github.com/gander16/assign2.git
  */
-package cse360assign2;
+package cse360assign3;
 
 /**
  * Creates AddingMachine class that acts like a basic calculator with the add,
@@ -20,8 +20,8 @@ package cse360assign2;
  */
 public class AddingMachine {
 
-	private int total;
-	private String history;
+	protected int total;
+	protected String history;
 
 	/**
 	 * Creates AddingMachine class. Initializes test and total's history.
