@@ -11,8 +11,9 @@
 package cse360assign3;
 
 /**
- * Creates AddingMachine class that acts like a basic calculator with the add,
- * subtract, get total, clear total and convert total to string.
+ * Creates Calculator class that extends the AddingMachine class with the mult,
+ * div, and power functions, which multiply, divide, and multiply exponentially
+ * (respectively).
  * 
  * @author Gabriel Anderson <gander16 @ asu.edu>
  * @version 1.1
@@ -22,26 +23,13 @@ package cse360assign3;
 public class Calculator extends AddingMachine {
 
 	/**
-	 * Creates AddingMachine class. Initializes test and total's history.
+	 * Creates Calculator class. Uses super to call base class constructor.
 	 * 
 	 * @since 1.0
 	 */
 	public Calculator() {
 		super();
 
-	}
-
-	/**
-	 * Returns the value of the private int total
-	 *
-	 * <p>
-	 * Use {@link #getTotal()} to return the total value.
-	 *
-	 * @return int of the new total
-	 * @since 1.0
-	 */
-	public int getTotal() {
-		return total;
 	}
 
 	/**
